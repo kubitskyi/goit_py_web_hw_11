@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "goit-py-web-hw-11"
+version = "0.1.0"
+description = ""
+authors = ["Yaroslav Kubitskyi <fenixm22@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+sqlalchemy = "^2.0.35"
+alembic = "^1.13.2"
+psycopg2 = "^2.9.9"
+pydantic = "^2.9.2"
+email-validator = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
